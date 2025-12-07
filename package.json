@@ -7,7 +7,7 @@
   },
   "scripts": {
     "watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
-    "build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css && copy index.html dist/index.html",
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css && copy \"index.html\" \"dist\\index.html\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   }
