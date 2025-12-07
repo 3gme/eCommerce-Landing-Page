@@ -2708,7 +2708,7 @@ ion-icon {
 }
 
 .fifth-frame .grid-container .grid-item:nth-child(3){
-  background-image: URL("../assets/images/off-1.jpg");
+  background-image: url("./assets/images/off-1.jpg");
   background-repeat: norepeat;
   background-size: cover;
 }
@@ -2736,7 +2736,7 @@ ion-icon {
 }
 
 .fifth-frame .grid-container .grid-item:nth-child(4){
-  background-image: URL("../assets/images/off-2.jpg");
+  background-image: url("./assets/images/off-2.jpg");
   background-repeat: norepeat;
   background-size: cover;
 }
@@ -2881,7 +2881,7 @@ ion-icon {
 \*--------------------*/
 
 .parallex {
-  background-image: url("/assets/images/cta-bg.png");
+  background-image: url("./assets/images/cta-bg.png");
   min-height: 300px;
   background-size: cover;
   background-attachment: fixed;
