@@ -3047,8 +3047,8 @@ ion-icon {
 }
 
 @media (min-width: 480px) {
-  .xs\:mt-10 {
-    margin-top: 2.5rem;
+  .xs\:mt-0 {
+    margin-top: 0px;
   }
 }
 
